@@ -9,7 +9,7 @@ var template = React.createElement(
     React.createElement(
         'h1',
         null,
-        'Indecision App'
+        'Indecision Applet'
     ),
     React.createElement(
         'p',
