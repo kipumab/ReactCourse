@@ -22,7 +22,7 @@ var template = React.createElement(
         React.createElement(
             'li',
             null,
-            'Item One'
+            'Item Ones'
         ),
         React.createElement(
             'li',
@@ -31,6 +31,26 @@ var template = React.createElement(
         )
     )
 );
+
+var templateTwo = React.createElement(
+    'div',
+    null,
+    React.createElement(
+        'h1',
+        null,
+        'Andrew Bae'
+    ),
+    React.createElement(
+        'p',
+        null,
+        'Age: 26'
+    ),
+    React.createElement(
+        'p',
+        null,
+        'Location: Baltimore'
+    )
+);
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
